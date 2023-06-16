@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".activityabout">
+
+    <?xml version="1.0" encoding="utf-8"?>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:padding="16dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        tools:layout_editor_absoluteX="0dp">
+
+        <ImageView
+            android:layout_width="211dp"
+            android:layout_height="123dp"
+            android:src="@drawable/sobrenos" />
+
+        <TextView
+            android:layout_width="373dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:text="Sobre Nós"
+            android:textSize="24sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:text="Olá! Nós somos um grupo de estudantes, que trabalhamos desenvolvendo uma aplicação para outros estudantes, focando sempre no aprendizado em Informática e programação, priorizando fornecer conteúdos gratuitos e de fácil acesso.
+ Para o desenvolvimento de nossos sistemas, contamos com uma equipe composta por: Ana Victoria, a responsável pela organização dos temas, pesquisas, e pela documentação e apresentação do projeto, Kaique Oliveira, o nosso desenvolvedor de front-end e back-end, responsável por todas as funcionalidades do sistema, Larissa Jenyfer e Guilherme pereira Teixeira, nossa desenvolvedora mobile, responsável pelos designs das telas e as funcionalidades do sistema mobile, Guilherme Teixeira, responsável pelas funções do sistema Web, juntamente com o Kaique, auxiliando principalmente com os detalhes estéticos do front-end. O sistema mobile foi desenvolvido na versao 2022.1.1  " />
+
+        <Button
+            android:id="@+id/button"
+            android:layout_width="190dp"
+            android:layout_height="wrap_content"
+            android:layout_margin="100dp"
+            android:text="voltar" />
+
+
+        <!-- Adicione mais elementos de interface do usuário conforme necessário -->
+
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
